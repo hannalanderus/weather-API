@@ -1,7 +1,29 @@
+body{
+   font-family: 'futura-heavy';
+}
+.headline{
+    display:flex;
+    justify-content: center;
+    padding-top: 75px;
+}
 header {
   position: relative;
   height: 300px;
   background-image: linear-gradient(#12c2e9, #c471ed,#f64f59);
+}
+@font-face {
+    font-family: "apercu-mono";
+    src: url("fonts/apercu-mono.eot");
+    src: 
+    url("fonts/apercu-mono.woff") format("woff"),
+    url("fonts/apercu-mono.otf") format("opentype");
+}
+@font-face {
+    font-family: "futura-heavy";
+    src: url("fonts/Futura-Heavy.eot");
+    src: 
+    url("fonts/Futura-Heavy.woff") format("woff"),
+    url("fonts/Futura-Heavy.otf") format("opentype");
 }
 
 svg {
